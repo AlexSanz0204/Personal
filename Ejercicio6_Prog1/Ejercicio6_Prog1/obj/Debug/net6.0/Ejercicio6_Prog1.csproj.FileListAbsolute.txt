@@ -1,0 +1,15 @@
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\Ejercicio6_Prog1.exe
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\Ejercicio6_Prog1.deps.json
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\Ejercicio6_Prog1.runtimeconfig.json
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\Ejercicio6_Prog1.dll
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\ref\Ejercicio6_Prog1.dll
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\bin\Debug\net6.0\Ejercicio6_Prog1.pdb
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.dll
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\ref\Ejercicio6_Prog1.dll
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.pdb
+C:\Users\Alex\Desktop\Ejercicio6_Prog1\Ejercicio6_Prog1\obj\Debug\net6.0\Ejercicio6_Prog1.genruntimeconfig.cache
