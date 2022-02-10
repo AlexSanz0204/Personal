@@ -323,7 +323,7 @@ opc = Convert.ToInt32(Console.ReadLine());
     else
         if (opc >= 18)
     {
-        Console.WriteLine("Opción incorrecta:(" +
+        Console.WriteLine("Opción incorrecta:(\n" +
             "Elije otra opción" +
             " \n" +
             "----------------");
