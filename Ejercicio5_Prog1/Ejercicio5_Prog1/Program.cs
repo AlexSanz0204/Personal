@@ -319,5 +319,14 @@ opc = Convert.ToInt32(Console.ReadLine());
             " \n" +
             "----------------");
     }
+
+    else
+        if (opc >= 18)
+    {
+        Console.WriteLine("Opción incorrecta:(" +
+            "Elije otra opción" +
+            " \n" +
+            "----------------");
+    }
 }
 Console.ReadKey();
