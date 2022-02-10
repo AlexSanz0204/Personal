@@ -79,7 +79,7 @@ while (true)
 
         if (opc >= 2)
     {
-        Console.WriteLine("Opción Invalida :(" +
+        Console.WriteLine("Opción Invalida :(\n" +
             "Vuelve a intentarlo" +
             " \n" +
             "----------------");
