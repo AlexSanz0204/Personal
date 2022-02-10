@@ -1,14 +1,31 @@
 ﻿//Nombre: Alexander Enrique Zelaya Sánchez, Ingeníeria en Sistemas, Cátedra de Programación I
 
 //Variable "Saludo"
-string saludo = "Bienvenido querido Usuario:)\n" +
+string saludo = "---------------------\n" +
+    "Bienvenido querido Usuario:)\n" +
+    "---------------------\n" +
     " ";
+
 //Imprimir "Saludo"
 Console.WriteLine(saludo);
-//Variable "opc"´para opciones en el Switch Case
+
+//Variables
+int x;
+int y;
+double n;
+double m;
+double resultado;
+double resultado2;
+double resultado3;
+double resultado4;
+
+while (true) 
+{ 
+//Variable "opc"´para opciones
 int opc;
 //Menú de opciones
 Console.WriteLine("Menú de opciones :\n" +
+    " \n" +
     "1. El valor de cada variable.\n" +
     "2. La suma  X + Y\n" +
     "3. La diferencia  X – Y\n" +
@@ -28,139 +45,220 @@ Console.WriteLine("Menú de opciones :\n" +
     "17. El producto de todas las variables\n" +
     "0. Salir del programa\n" +
     " " +
-    " Ingrese una de las opciones:)");
+    "Ingrese una de las opciones:)\n" +
+    "---------------------");
 //almacenar el dato en la variable "opc" dictado en la consola convirtiendolo a Int
 opc = Convert.ToInt32(Console.ReadLine());
-//Variables
-int x;
-int y;
-double n;
-double m;
-double resultado;
-double resultado2;
-double resultado3;
-double resultado4;
-//Switch Case
-switch (opc)
-{
-    //Salir del programa
-    case 0:
-        Console.WriteLine("Ha salido del programa con éxito\n" +
-            "Hata la próxima!");
+
+    if (opc == 0)
+    {
+        Console.WriteLine("Ha salido del programa con éxito :)\n" +
+            "Hasta la próxima!" +
+            " \n" +
+            "----------------");
         break;
-    case 1:
+    }
+
+    else
+
+        if (opc == 1)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine($"La variable X tiene un valor de: {x}\n" +
-            $"la variable Y tiene un valor de: {y}");
-        break;
-    case 2:
+            $"la variable Y tiene un valor de: {y}" +
+            " \n" +
+            "-----------------");
+    }
+
+    else
+
+        if (opc == 2)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         resultado = x + y;
-        Console.WriteLine($"El resultado de la suma entre {x} y {y} es: {resultado}");
-        break;
-    case 3:
+        Console.WriteLine($"El resultado de la suma entre {x} y {y} es: {resultado}" +
+            " \n" +
+            "-----------------");
+    }
+
+    else
+
+        if (opc == 3)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         resultado = x - y;
-        Console.WriteLine($"El resultado de la resta entre {x} y {y} es: {resultado}");
-        break;
-    case 4:
+        Console.WriteLine($"El resultado de la resta entre {x} y {y} es: {resultado}" +
+            " \n" +
+            "-----------------");
+    }
+
+    else
+
+        if (opc == 4)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         resultado = x * y;
-        Console.WriteLine($"El resultado de la multiplicación entre {x} y {y} es: {resultado}");
-        break;
-    case 5:
+        Console.WriteLine($"El resultado de la multiplicación entre {x} y {y} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 5)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         resultado = x / y;
-        Console.WriteLine($"El resultado de la división entre {x} y {y} es: {resultado}");
-        break;
-    case 6:
+        Console.WriteLine($"El resultado de la división entre {x} y {y} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 6)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         y = Convert.ToInt32(Console.ReadLine());
         resultado = x % y;
-        Console.WriteLine($"El resultado del resto entre {x} y {y} es: {resultado}");
-        break;
-    case 7:
+        Console.WriteLine($"El resultado del resto entre {x} y {y} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 7)
+    {
         Console.WriteLine("Ingrese un número: ");
         n = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = n + m;
-        Console.WriteLine($"El resultado de la suma entre {n} y {m} es: {resultado}");
-        break;
-    case 8:
+        Console.WriteLine($"El resultado de la suma entre {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 8)
+    {
         Console.WriteLine("Ingrese un número: ");
         n = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = n - m;
-        Console.WriteLine($"El resultado de la resta entre {n} y {m} es: {resultado}");
-        break;
-    case 9:
+        Console.WriteLine($"El resultado de la resta entre {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 9)
+    {
         Console.WriteLine("Ingrese un número: ");
         n = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = n * m;
-        Console.WriteLine($"El resultado de la multiplicación entre {n} y {m} es: {resultado}");
-        break;
-    case 10:
+        Console.WriteLine($"El resultado de la multiplicación entre {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 10)
+    {
         Console.WriteLine("Ingrese un número: ");
         n = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = n / m;
-        Console.WriteLine($"El resultado de la división entre {n} y {m} es: {resultado}");
-        break;
-    case 11:
+        Console.WriteLine($"El resultado de la división entre {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 11)
+    {
         Console.WriteLine("Ingrese un número: ");
         n = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = n + m;
-        Console.WriteLine($"El resultado del resto entre {n} y {m} es: {resultado}");
-        break;
-    case 12:
+        Console.WriteLine($"El resultado del resto entre {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 12)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         n = Convert.ToDouble(Console.ReadLine());
         resultado = x + n;
-        Console.WriteLine($"El resultado de la suma entre {x} y {n} es: {resultado}");
-        break;
-    case 13:
+        Console.WriteLine($"El resultado de la suma entre {x} y {n} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 13)
+    {
         Console.WriteLine("Ingrese un número: ");
         y = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = y / m;
-        Console.WriteLine($"El resultado de la división entre {y} y {m} es: {resultado}");
-        break;
-    case 14:
+        Console.WriteLine($"El resultado de la división entre {y} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 14)
+    {
         Console.WriteLine("Ingrese un número: ");
         y = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
         m = Convert.ToDouble(Console.ReadLine());
         resultado = y % m;
-        Console.WriteLine($"El resultado del resto entre {y} y {m} es: {resultado}");
-        break;
-    case 15:
+        Console.WriteLine($"El resultado del resto entre {y} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 15)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         resultado = x + x;
@@ -180,9 +278,14 @@ switch (opc)
         Console.WriteLine($"El doble de {x} es: {resultado}\n" +
             $"El doble de {y} es: {resultado2}\n" +
             $"El doble de {n} es: {resultado3}\n" +
-            $"El doble de {m} es: {resultado4}");
-        break;
-    case 16:
+            $"El doble de {m} es: {resultado4}" +
+            " \n" +
+            "----------------");
+
+    }
+    else
+        if (opc == 16)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
@@ -193,9 +296,15 @@ switch (opc)
         m = Convert.ToDouble(Console.ReadLine());
         resultado = x + y + n + m;
         Console.WriteLine("El resultado de la suma\n" +
-            $"entre {x}, {y}, {n} y {m} es: {resultado}");
-        break;
-    case 17:
+            $"entre {x}, {y}, {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
+
+    else
+
+        if (opc == 17)
+    {
         Console.WriteLine("Ingrese un número: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Ingrese otro número: ");
@@ -206,9 +315,9 @@ switch (opc)
         m = Convert.ToDouble(Console.ReadLine());
         resultado = x * y * n * m;
         Console.WriteLine("El resultado de la multiplicación\n" +
-            $"entre {x}, {y}, {n} y {m} es: {resultado}");
-        break;
-    default: Console.WriteLine("Opción Invalida");
-        break;
+            $"entre {x}, {y}, {n} y {m} es: {resultado}" +
+            " \n" +
+            "----------------");
+    }
 }
 Console.ReadKey();
