@@ -25,17 +25,16 @@ while (true)
     " " +
     "Ingrese una de las opciones:)\n" +
     " ");
-
-opc = Convert.ToInt32(Console.ReadLine());
+    opc = Convert.ToInt32(Console.ReadLine());
 
     if (opc == 0)
-{
+    {
     Console.WriteLine("Ha salido del programa con éxito\n" +
                 "Hata la próxima!" +
                 " \n" +
                 "----------------");
         break;
-}
+    }
 
     else
 
