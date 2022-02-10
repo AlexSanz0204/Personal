@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj": {}
+    "C:\\Users\\Alex\\Documents\\Personal\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj": {
+    "C:\\Users\\Alex\\Documents\\Personal\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Documents\\Personal\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj",
         "projectName": "Ejercicio6_Prog1",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj",
+        "projectPath": "C:\\Users\\Alex\\Documents\\Personal\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\Ejercicio6_Prog1.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Documents\\Personal\\Ejercicio6_Prog1\\Ejercicio6_Prog1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
