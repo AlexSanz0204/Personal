@@ -1,31 +1,37 @@
-﻿string bienvenida = "Bienvenido querido usuario :)\n" +
+﻿//Hecho por Alexander Enrique Zelaya Sánchez, Ingeniería En Sistemas, Cátedra Programación I
+
+string bienvenida = "Bienvenido querido usuario :)\n" +
     " ";
 Console.WriteLine(bienvenida);
-
-int opc;
-Console.WriteLine("Menú de opciones :\n" +
-    " \n" +
-    "1. Comprobar si un numero es par\n" +
-    "0. Salir del programa\n" +
-    " " +
-    "Ingrese una de las opciones:)\n" +
-    " ");
-opc = Convert.ToInt32(Console.ReadLine());
 
 //variable
 int a;
 
-switch (opc)
+while (true)
 {
-    case 0:
-        Console.WriteLine("Ha salido del programa con éxito\n" +
-            "Hata la próxima!");
-        break;
+    int opc;
+    Console.WriteLine("Menú de opciones :\n" +
+        " \n" +
+        "1. Comprobar si un numero es par\n" +
+        "0. Salir del programa\n" +
+        " " +
+        "Ingrese una de las opciones:)\n" +
+        " ");
+    opc = Convert.ToInt32(Console.ReadLine());
 
-    case 1:
+    if (opc == 0)
+    {
+        Console.WriteLine("Ha salido del programa con éxito\n" +
+            "Hasta la próxima!");
+        break;
+    }
+
+    else
+        if (opc == 1)
+    {
         Console.WriteLine("Ingrese un número: ");
         a = Convert.ToInt32(Console.ReadLine());
-
+        
         if ((a % 2) == 0)
         {
             Console.WriteLine(" \n" +
@@ -36,10 +42,15 @@ switch (opc)
             Console.WriteLine(" \n" +
                 $"el número que usted ingresó ({a}) es un número impar :(");
         }
-        break;
+    }
 
-    default:
-        Console.WriteLine("Opción inválida :(");
-        break;
+    else 
+        if (opc >= 2)
+    {
+        Console.WriteLine("Opción invalida:(\n" +
+            "Ingrese otra opción" +
+            " \n" +
+            "----------------");
+    }
 }
 Console.ReadKey();
